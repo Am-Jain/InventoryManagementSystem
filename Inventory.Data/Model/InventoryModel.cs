@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Inventory.Data.Model
+{
+    public class InventoryModel
+    {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public string Tag { get; set; }
+
+        public string Category { get; set; }
+
+        public string Twitter { get; set; }
+    }
+}
